@@ -1,0 +1,247 @@
+/* App.css */
+/* Inside your App.css or relevant CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.Navbar img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.Navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.Navbar a:hover {
+  text-decoration: underline;
+}
+
+.Navbar .MuiButton-root {
+  padding: 8px 16px;
+}
+
+.MenuItem a {
+  color: #4e342e;
+  text-decoration: none;
+}
+
+.MenuItem a:hover {
+  text-decoration: underline;
+}
+
+button, .MuiButton-root {
+  background-color: #8d6e63;
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+button:hover, .MuiButton-root:hover {
+  background-color: #5d4037;
+}
+
+input, .MuiTextField-root {
+  margin: 8px 0;
+}
+
+.MuiTextField-root input {
+  color: #4e342e;
+}
+
+.MuiTextField-root label {
+  color: #4e342e;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #4e342e;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #8d6e63;
+}
+
+.lsmodule{
+  background-image: url('/src/Components/img/commonbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.lsbg{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+.Welcome {
+  background-image: url('/src/Components/img/blogbg.jpg'); /* Absolute path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.WelcomeText {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background to the text */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.WelcomeTitle {
+  font-family: 'Dancing Script', cursive !important; /* Add !important to override any conflicting styles */
+  color: #ffffff; /* White color for the title text */
+  margin-bottom: 10px;
+  font-size: 4rem;
+}
+
+.WelcomeTagline {
+  font-family: 'Pacifico', cursive !important; /* Add !important to override any conflicting styles */
+  color: #ffffff; /* White color for the tagline text */
+  font-size: 2rem;
+}
+.BlogContainer {
+  padding: 20px;
+  background-image: url('/src/Components/img/viewbg.jpg'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.BlogContainer {
+  padding: 20px;
+}
+
+.BlogCard {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.BlogCard:hover {
+  transform: translateY(-5px);
+}
+
+.BlogTitle {
+  font-size: 2.5rem; /* Increased font size */
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Pacifico', cursive !important; 
+  color: #573d36; /* Dark brown color */
+}
+.Myblog{
+  text-align: center;
+  color: darkbrown;
+  padding: 15px;
+  font-family: 'Pacifico', cursive  !important;
+
+}
+.BlogContent {
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.BlogAuthor {
+  font-size: .9rem;
+  color: #888;
+  margin-top: 20px;
+  display: block;
+}
+
+.CardActions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.IconButton {
+  color: #2196f3;
+  margin-left: 5px;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.AddBlogButton {
+  background-color: #8d6e63;
+  color: white;
+}
+/* App.css */
+.RegisterMessage {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #4e342e; /* Dark brown color */
+}
+
+.RegisterLink {
+  color: #4e342e;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.RegisterLink:hover {
+  color: #8d6e63; /* Slightly lighter brown color */
+}
+/* EditBlog.css */
+.EditBlogContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  background-image: url('/src/Components/img/commonbg.jpg');
+}
+
+.EditBlogPaper {
+  padding: 30px;
+  width: 600px;
+  max-width: 90%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.EditBlogTitle {
+  font-family: 'Roboto', sans-serif;
+  color: #4e342e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ShortInput {
+  margin-bottom: 20px;
+}
+
+.SaveButton {
+  background-color: #4e342e;
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
+
+.SaveButton:hover {
+  background-color: #3e2723;
+}
