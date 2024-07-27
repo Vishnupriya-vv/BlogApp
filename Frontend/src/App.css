@@ -212,7 +212,6 @@ input, .MuiTextField-root {
   align-items: center;
   height: 100vh;
   background-color: #f4f4f4;
-  background-image: url('/src/Components/img/commonbg.jpg');
 }
 
 .EditBlogPaper {
